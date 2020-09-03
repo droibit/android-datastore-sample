@@ -19,7 +19,7 @@ package com.github.droibit.datastore.sample.ui
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
-import com.github.droibit.datastore.sample.data.Task
+import com.github.droibit.datastore.shared.data.Task
 
 class TasksAdapter : ListAdapter<Task, TaskViewHolder>(TASKS_COMPARATOR) {
 

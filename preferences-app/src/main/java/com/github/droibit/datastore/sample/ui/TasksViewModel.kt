@@ -5,9 +5,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import com.github.droibit.datastore.sample.data.SortOrder
-import com.github.droibit.datastore.sample.data.Task
-import com.github.droibit.datastore.sample.data.TasksRepository
 import com.github.droibit.datastore.sample.data.UserPreferencesRepository
+import com.github.droibit.datastore.shared.data.Task
+import com.github.droibit.datastore.shared.data.TasksRepository
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.launch
 
@@ -88,7 +88,6 @@ class TasksViewModel(
                 return TasksViewModel(repository, userPreferencesRepository) as T
             }
             throw IllegalArgumentException("Unknown ViewModel class")
-
         }
     }
 }

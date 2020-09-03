@@ -21,8 +21,8 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.github.droibit.datastore.sample.R
-import com.github.droibit.datastore.sample.data.Task
-import com.github.droibit.datastore.sample.data.TaskPriority
+import com.github.droibit.datastore.shared.data.Task
+import com.github.droibit.datastore.shared.data.TaskPriority
 import com.github.droibit.datastore.sample.databinding.TaskViewItemBinding
 import java.text.SimpleDateFormat
 import java.util.*
