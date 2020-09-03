@@ -1,0 +1,2 @@
+include ':preferences-app'
+rootProject.name = "datastore-sample"
