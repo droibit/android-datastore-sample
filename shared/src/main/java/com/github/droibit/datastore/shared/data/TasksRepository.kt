@@ -14,11 +14,10 @@
  * limitations under the License.
  */
 
-package com.github.droibit.datastore.sample.data
+package com.github.droibit.datastore.shared.data
 
 import kotlinx.coroutines.flow.flowOf
 
-import kotlinx.coroutines.flow.flowOf
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

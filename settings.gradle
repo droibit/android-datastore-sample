@@ -1,3 +1,4 @@
 include ':shared'
+include ':proto-app'
 include ':preferences-app'
 rootProject.name = "datastore-sample"

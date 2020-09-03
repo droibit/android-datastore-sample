@@ -1,4 +1,4 @@
-package com.github.droibit.datastore.sample.data
+package com.github.droibit.datastore.shared.data
 
 import java.util.*
 
