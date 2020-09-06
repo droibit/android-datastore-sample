@@ -106,6 +106,6 @@ class UserPreferencesRepository(context: Context) {
     }
 
     companion object {
-        private val TAG: String = "UserPreferencesRepo"
+        private const val TAG: String = "UserPreferencesRepo"
     }
 }

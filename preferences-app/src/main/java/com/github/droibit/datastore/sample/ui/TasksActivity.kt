@@ -8,6 +8,7 @@ import com.github.droibit.datastore.sample.data.SortOrder
 import com.github.droibit.datastore.shared.data.TasksRepository
 import com.github.droibit.datastore.sample.data.UserPreferencesRepository
 import com.github.droibit.datastore.sample.databinding.ActivityTasksBinding
+import com.github.droibit.datastore.shared.ui.TasksAdapter
 
 class TasksActivity : AppCompatActivity() {
 

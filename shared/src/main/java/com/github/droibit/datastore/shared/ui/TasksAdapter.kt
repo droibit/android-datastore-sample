@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.github.droibit.datastore.sample.ui
+package com.github.droibit.datastore.shared.ui
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
